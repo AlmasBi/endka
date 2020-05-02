@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    android:padding="15dp"
+    android:background="@drawable/krug"
+
+    >
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="10dp"
+        android:text="Confirmed cases:"
+        android:textSize="15dp"
+        android:textColor="#5c3433"/>
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="sjkhfdskjfhdkfs"
+    android:id="@+id/Confirmed"
+        android:textSize="15dp"
+        android:textColor="#5c3433"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="people"
+        android:textSize="15dp"
+        android:textColor="#5c3433"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deaths:"
+            android:paddingRight="10dp"
+            android:textSize="15dp"
+            android:textColor="#5c3433"/>
+        <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sjkhfdskjfhdkfs"
+        android:id="@+id/Deaths"
+            android:textSize="15dp"
+            android:textColor="#5c3433"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="people"
+            android:textSize="15dp"
+            android:textColor="#5c3433"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:text="Recovered cases:"
+            android:textSize="15dp"
+            android:textColor="#5c3433"/>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sjkhfdskjfhdkfs"
+        android:id="@+id/Recovered"
+            android:textSize="15dp"
+            android:textColor="#5c3433"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="people"
+            android:textSize="15dp"
+            android:textColor="#5c3433"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:text="Active cases:"
+            android:textSize="15dp"
+            android:textColor="#5c3433"/>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sjkhfdskjfhdkfs"
+        android:id="@+id/Active"
+            android:textSize="15dp"
+            android:textColor="#5c3433"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="people"
+            android:textSize="15dp"
+            android:textColor="#5c3433"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="100dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date: "
+            android:textSize="15dp"
+            android:textColor="#b32937"/>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sjkhfdskjfhdkf"
+
+        android:textSize="15dp"
+        android:textColor="#b32937"
+        android:id="@+id/Date"/>
+    </LinearLayout>
+
+</LinearLayout>
